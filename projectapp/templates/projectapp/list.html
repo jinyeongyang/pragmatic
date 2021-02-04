@@ -25,7 +25,7 @@
         border-radius: 1rem;
     }
 </style>
-    {% if porject_list %}
+    {% if project_list %}
     <div class="container">
         {% for project in project_list %}
         <a href="{% url 'projectapp:detail' pk=project.pk %}">
